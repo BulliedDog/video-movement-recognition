@@ -1,2 +1,9 @@
 extract_frames/*
 videos/*
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
