@@ -8,10 +8,10 @@ This code analyses frames in videos to detect any moving object and will predict
 3. [Plan](#plan)
 
 ### Plan
-- [ ] Phase 1: Frame Extraction & Preprocessing
+- [x] Phase 1: Frame Extraction & Preprocessing
     - [x] Extract frames from video input using OpenCV (cv2.VideoCapture)
     - [x] Store frames in memory or as temporary files
-    - [ ] Normalize frame dimensions for consistent processing
+    - [x] Normalize frame dimensions for consistent processing
 - [ ] Phase 2: Motion Detection via Frame Differencing
     - [ ] Implement frame-to-frame subtraction using OpenCV
     - [ ] Convert frames to grayscale for efficient comparison
