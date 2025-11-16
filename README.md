@@ -16,7 +16,7 @@ This code analyses frames in videos to detect any moving object and will predict
     - [ ] Implement frame-to-frame subtraction using OpenCV
     - [ ] Convert frames to grayscale for efficient comparison
     - [ ] Apply Gaussian blur to reduce noise
-    - Use binary thresholding to isolate moving regions
+    - [ ] Use binary thresholding to isolate moving regions
     - [ ] Dilate/erode morphological operations to clean up the binary masks
 - [ ] Phase 3: Contour Detection & Analysis
     - [ ] Extract contours from the binary masks using cv2.findContours
