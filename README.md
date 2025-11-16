@@ -4,8 +4,7 @@ This code analyses frames in videos to detect any moving object and will predict
 
 ### Table of contents
 1. [Abstract](#abstract)
-2. [TODOS](#todos)
-3. [Plan](#plan)
+2. [Plan](#plan)
 
 ### Plan
 - [x] Phase 1: Frame Extraction & Preprocessing
