@@ -9,8 +9,8 @@ This code analyses frames in videos to detect any moving object and will predict
 
 ### Plan
 - [ ] Phase 1: Frame Extraction & Preprocessing
-    - [ ] Extract frames from video input using OpenCV (cv2.VideoCapture)
-    - [ ] Store frames in memory or as temporary files
+    - [x] Extract frames from video input using OpenCV (cv2.VideoCapture)
+    - [x] Store frames in memory or as temporary files
     - [ ] Normalize frame dimensions for consistent processing
 - [ ] Phase 2: Motion Detection via Frame Differencing
     - [ ] Implement frame-to-frame subtraction using OpenCV
@@ -24,9 +24,9 @@ This code analyses frames in videos to detect any moving object and will predict
     - [ ] Calculate contour properties: aspect ratio, area, perimeter, circularity
     - [ ] Store bounding boxes for each detected object
 - [ ] Phase 4: Object Classification (Rule-Based)
-    - [ ] Develop heuristic rules to distinguish mosquitoes from humans based on:
-        - [ ] Contour size (mosquitoes are small, humans are large)
-        - [ ] Aspect ratio (mosquitoes are elongated, humans vary)
+    - [ ] Develop heuristic rules to distinguish mosquitos from humans based on:
+        - [ ] Contour size (mosquitos are small, humans are large)
+        - [ ] Aspect ratio (mosquitos are elongated, humans vary)
         - [ ] Movement speed and patterns
     - [ ] Classify each detected object into categories
 - [ ] Phase 5: Performance Metrics
